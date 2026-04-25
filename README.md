@@ -69,7 +69,17 @@ Units, buildings, resources, and abilities are all data-driven via ScriptableObj
 - **Version Control:** Git / GitHub
 
 ---
+## ⚠️ Dependencies & Missing Assets
 
+This repo contains **Scripts only**. To run this project you will need the following paid/third-party assets — they are **not included**:
+
+- **Odin Inspector** — serialization and custom inspector tools
+- **DOTween (HOTween)** — animation and tweening
+- **UniTask** — async/await utilities for Unity
+- **Hot Reload** — editor-only live reload tool, not related to gameplay code
+
+Without these, the project will throw errors. This is a source code share for learning and reference, not a plug-and-play project.
+---
 ## 📢 Follow the Development
 
 I post architecture breakdowns, dev logs, and progress on social media as I build this. If you want to follow along or ask questions about any system, feel free.
